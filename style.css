@@ -1,0 +1,200 @@
+html, body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar{
+    background-color: #f5f5f0;
+   
+}
+
+.nav-link{
+    color: #3edb6e;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.navbar ul li{
+    margin-right: 20px;
+}
+
+.nav-link:hover{
+    color: #FFF;
+    background-color: #3edb6e;
+    border-radius: 5px;
+}
+
+#logo{
+    margin-left: 20px;
+}
+
+.btn{
+    margin-top: 6px;
+    background-color: #3edb6e!important;
+    color: #FFF!important;
+}
+
+.btn:hover{
+    background-color: green!important;
+}
+/* END NAVBAR */
+
+/* SLIDER */
+#slider{
+    margin-top: 80px;
+}
+/* END SLIDER */
+
+
+/* O NAS */
+#onas{
+    color: #3edb6e;
+    font-size: 110%;
+    padding-bottom: 85px;
+}
+
+.header-onas{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 85px;
+}
+
+.header-onas h2{
+    border-bottom: 1px solid #3edb6e;
+    padding-bottom: 20px;
+}
+
+.b-onas{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+.opis{
+
+}
+
+/* END O NAS */
+
+/* GODZINY OTWARCIA */
+
+#godziny{
+    color: #3edb6e;
+    background-color: #f5f5f0;
+    text-align: center;
+    padding-bottom: 85px;
+}
+
+.header-godziny{
+    padding: 85px;
+}
+
+#godziny h2{
+    text-transform: uppercase;
+    border-bottom: 1px solid #3edb6e;
+    padding-bottom: 20px;
+}
+
+#godziny img{
+    padding: 25px;
+}
+
+.dni{
+    text-align: left;
+    border-bottom: 1px dashed #3edb6e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.godz{
+    float: right;
+}
+/* END GODZINY OTWARCIA */
+
+/* DOKTORZY */
+*{
+    box-sizing: border-box;
+}
+
+.zdjecie{
+    position: relative;
+    width: 100%;
+}
+
+.image {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.zdjecie:hover .overlay {
+  opacity: 0.8;
+}
+
+#doktorzy{
+    color: #3edb63;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.nasi-doktorzy h2{
+    text-transform: uppercase;
+    border-bottom: 1px solid #3edb6e;
+    padding-bottom: 20px;
+}
+
+#doktorzy img{
+    padding: 10px;
+}
+
+/* FOOTER */
+footer{
+    color: #3edb6e;
+    background-color: #f5f5f0;
+    padding: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.kontakt{
+    border-bottom: solid 1px #3edb6e;
+}
+
+footer a{
+    color: #3edb6e!important;
+}
+
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+/* END FOOTER */
