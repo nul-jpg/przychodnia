@@ -51,15 +51,14 @@ html, body{
 
 /* O NAS */
 #onas{
-    color: #3edb6e;
+    color: #000;
     font-size: 110%;
-    padding-bottom: 85px;
+    padding: 85px;
 }
 
 .header-onas{
     text-align: center;
     text-transform: uppercase;
-    padding: 85px;
 }
 
 .header-onas h2{
@@ -78,6 +77,7 @@ html, body{
 
 }
 
+
 /* END O NAS */
 
 /* GODZINY OTWARCIA */
@@ -86,11 +86,11 @@ html, body{
     color: #3edb6e;
     background-color: #f5f5f0;
     text-align: center;
-    padding-bottom: 85px;
+    padding: 85px;
 }
 
 .header-godziny{
-    padding: 85px;
+
 }
 
 #godziny h2{
@@ -152,25 +152,23 @@ html, body{
 #doktorzy{
     color: #3edb63;
     text-align: center;
-    padding-top: 85px;
-    padding-bottom: 85px;
+    padding: 85px;
 }
 
 .nasi-doktorzy h2{
     text-transform: uppercase;
-    border-bottom: 1px solid #3edb6e;
-    padding-bottom: 20px;
+    border-bottom: 1px solid #3edb6e; 
 }
 
 #doktorzy img{
-    padding: 10px;
+
 }
 
 /* FOOTER */
 footer{
     color: #3edb6e;
     background-color: #f5f5f0;
-    padding: 60px;
+    padding: 50px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -179,8 +177,13 @@ footer{
     border-bottom: solid 1px #3edb6e;
 }
 
+
 footer a{
     color: #3edb6e!important;
+}
+
+iframe{
+    padding-top: 10px;
 }
 
 .map-responsive{
